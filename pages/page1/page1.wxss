@@ -1,0 +1,25 @@
+/* pages/page1/page1.wxss */
+
+.box {
+  display: inline-block;
+  align-self: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-left: 1rpx solid black;
+}
+
+.row .col {
+  width: 80rpx;
+  text-align: center;
+  border-top: 1rpx solid black;
+  border-right: 1rpx solid black;
+  font-size: 8px;
+}
+
+.row:last-child .col {
+  border-bottom: 1rpx solid black;
+}
